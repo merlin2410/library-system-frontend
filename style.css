@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Body */
+body{
+    font-family:sans-serif;
+}
+/* Navigation Bar */
+nav{
+    background-color: black;
+    color:white;
+    position: sticky;
+    height: 60px;
+    width:100%;
+    top:0px
+    
+}
+/* Navigation Bar--> Unordered list */
+nav ul{
+    list-style-type:none;
+}
+/* Items in list */
+nav ul li{
+    float:right;
+    margin:20px;
+
+}
+/* Anchor tags inside list items */
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.library{
+    float:left;
+}
+
+/* Books Section */
+.bodystyle{
+    background-color:antiquewhite;
+}
+div{
+    background-color: white;
+    margin-left:250px;
+    margin-right:250px;
+    margin-top: 53px;
+    padding: 27px;
+}
+h1{
+
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:90%;
+    margin:auto;
+}
+th{
+    padding : 1px;
+    border: 1px solid black;
+    text-align: left;
+
+}
+td{
+    padding:10px;
+    border: 1px solid black;
+}
+table td table{
+    border: 2px solid rgb(194, 185, 185);
+    margin-top:10px;
+}
+table td table td{
+    padding: 2px;
+}
+table td a{
+    padding-top: 10px;
+}
+
+/* Registration form */
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left:15px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-left:15px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    width:92%
+  }

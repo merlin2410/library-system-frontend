@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="icon" type="image/x-icon" href="./assets/books.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bodystyle">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Logout</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#register" class="scroll-link">Register</a></li>
+            <li><a href="#books" class="scroll-link">Books</a></li>
+            <li class="library"><a href="#">Library System</a></li>        
+        </ul>
+    </nav>
+
+    <!-- Books -->
+    <div id="books">
+        <h1>Books</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>
+                        <a href="#">Book Title 1</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>
+                        <a href="#">Book Title 2</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>
+                        <a href="#">Book Title 3</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>1004</td>
+                    <td>
+                        <a href="#">Book Title 4</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>1005</td>
+                    <td>
+                        <a href="#">Book Title 5</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Register section -->
+    <div id="register">
+        <h1>Register</h1>
+        <form method="post">
+            <!-- First Name -->
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <!-- Last Name -->
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <!-- Age -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required min="5" max="100">
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <!-- Confirm Password -->
+            <label for="confirm">Confirm:</label>
+            <input type="password" id="confirm" name="confirm" required>
+            <!-- Register Button -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
